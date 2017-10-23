@@ -59,8 +59,10 @@ gulp.task('images', function(){
 });
 
 
-
-gulp.task('build', function() {
+/* ---------------------------------------------------------------------------------------
+need to work on this to compile pug - its crashing at the moment
+ ---------------------------------------------------------------------------------------*/
+gulp.task('pug', function() {
     return gulp.src('./views/**/*.pug')
         .pipe(data(function(file) {
             return JSON.parse(fs.readFileSync('./public/data/data.json'))
