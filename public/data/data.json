@@ -1,6 +1,12 @@
 {
   "data": {
-    "title": "JavaScript Flashcards",
+    "title": "Paquetes Vuelo + Hotel",
+
+    "nav": [
+      "paquetes", "cruceros", "costas", "parques", "chollos",
+      "vuelos", "hoteles", "trenes", "ferries", "destinos"
+    ],
+
     "cards": [
       {
         "image": "card-1",

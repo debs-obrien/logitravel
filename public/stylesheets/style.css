@@ -230,7 +230,7 @@ body {
   .card-block i.from {
     background: url("../images/icon-sprite.png") 0 0;
     height: 17px;
-    width: 17px; }
+    width: 14px; }
   .card-block i.plane {
     background: url("../images/icon-sprite.png") 0 -23px;
     height: 11px;
@@ -350,5 +350,8 @@ footer.container-fluid {
 .layout-errors {
   margin: 120px 0 0;
   padding: 20px; }
+
+.header-height {
+  margin: 140px 0 0; }
 
 /*# sourceMappingURL=style.css.map */

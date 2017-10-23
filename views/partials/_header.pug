@@ -43,16 +43,10 @@ header.container-fluid.navbar.fixed-top.navbar-light.bg-faded
     .container-fluid.nav-header
         .container
             nav.nav.flex-column.flex-sm-row
-                a.flex-sm-fill.text-sm-center.nav-link.active.split-words(href='#')
+                a.flex-sm-fill.text-sm-center.nav-link.active.split-words(href='/')
                     span.top-word Todas Las
                     span.bottom-word Categories
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Paquetes
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Cruceros
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Costas
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Parques
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Chollos
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Vuelos
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Hoteles
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Trenes
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Ferries
-                a.flex-sm-fill.text-sm-center.nav-link(href='#') Destinos
+                if(nav)
+                    each link in nav
+                        a.flex-sm-fill.text-sm-center.nav-link(href='/' + link) #{link}
+
