@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  include partials/_carousel
+  .container-fluid.main-content
+    .container
+      include partials/_heading
+      include partials/_secondary_nav
+      include partials/_cards
+
+

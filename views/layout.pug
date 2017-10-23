@@ -1,7 +1,32 @@
 doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+head
+  meta(charset='utf-8')
+  meta(http-equiv='x-ua-compatible', content='ie=edge')
+  title
+  meta(name='description', content="Reto para Trabajar en LogiTravel - Debbie O'Brien")
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  link(rel='manifest', href='site.webmanifest')
+  link(rel='apple-touch-icon', href='icon.png')
+  // Place favicon.ico in the root directory
+  link(rel='stylesheet', href='stylesheets/normalize.css')
+  link(rel='stylesheet', href='stylesheets/main.css')
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css', integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ', crossorigin='anonymous')
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+  link(rel='stylesheet', href='stylesheets/style.css')
+include partials/_header
+
+block content
+
+include partials/_footer
+script(src='javascripts/vendor/modernizr-3.5.0.min.js')
+script(src='https://code.jquery.com/jquery-3.2.1.min.js', integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=', crossorigin='anonymous')
+script.
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\\/script>')
+script(src='javascripts/plugins.js')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js', integrity='sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn', crossorigin='anonymous')
+script(src='javascripts/main.js')
+// Google Analytics: change UA-XXXXX-Y to be your site's ID.
+script.
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+script(src='https://www.google-analytics.com/analytics.js', async='', defer='')

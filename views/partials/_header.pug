@@ -1,0 +1,58 @@
+//if lte IE 9
+  p.browserupgrade
+    | You are using an
+    strong outdated
+    |  browser. Please
+    a(href='https://browsehappy.com/') upgrade your browser
+    |  to improve your experience and security.
+
+header.container-fluid.navbar.fixed-top.navbar-light.bg-faded
+    .container-fluid.top-header
+        .container
+            .logo
+                img(src='images/logo.png', alt='LogiTravel')
+            .search-bar
+                .drop-down-group
+                    #dropdownMenuSearch.menu(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                        | Todo la web
+                        i.fa.fa-angle-down
+                    .dropdown-menu(aria-labelledby='dropdownMenuSearch')
+                        a.dropdown-item(href='#') Cruceros
+                        a.dropdown-item(href='#') Paquetes
+                        a.dropdown-item(href='#') Vuelos
+                .search
+                    input(type='text', placeholder='Introduce un destino, cuidad, hotel')
+                    i.fa.fa-search
+            .header-info
+                .origin
+                    i.fa.fa-map-marker
+                    .info
+                        p.my-origin Mi origen es
+                        p.place San Sebastián
+                .profile
+                    i.avatar
+                    .info
+                        p.welcome Hola, accede a
+                        .drop-down-group
+                            #dropdownMenuAccount.flex(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                                p.drop-down Mi cuenta
+                                i.fa.fa-angle-down
+                            .dropdown-menu(aria-labelledby='dropdownMenuAccount')
+                                a.dropdown-item(href='#') Mensajes
+                                a.dropdown-item(href='#') Mis Reservas
+    .container-fluid.nav-header
+        .container
+            nav.nav.flex-column.flex-sm-row
+                a.flex-sm-fill.text-sm-center.nav-link.active.split-words(href='#')
+                    span.top-word Todas Las
+                    span.bottom-word Categories
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Paquetes
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Cruceros
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Costas
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Parques
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Chollos
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Vuelos
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Hoteles
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Trenes
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Ferries
+                a.flex-sm-fill.text-sm-center.nav-link(href='#') Destinos
