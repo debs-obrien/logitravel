@@ -227,23 +227,39 @@ body {
   .card-block i {
     display: inline-block;
     margin-right: 10px; }
-  .card-block i.plane {
+  .card-block i.from {
     background: url("../images/icon-sprite.png") 0 0;
+    height: 17px;
+    width: 17px; }
+  .card-block i.plane {
+    background: url("../images/icon-sprite.png") 0 -23px;
     height: 11px;
     width: 17px; }
   .card-block i.bed {
-    background: url("../images/icon-sprite.png") 0 -21px;
+    background: url("../images/icon-sprite.png") 0 -43px;
     height: 11px;
     width: 17px; }
   .card-block i.car {
-    background: url("../images/icon-sprite.png") 0 -39px;
+    background: url("../images/icon-sprite.png") 0 -62px;
     height: 14px;
     width: 17px; }
+  .card-block i.transport {
+    background: url("../images/icon-sprite.png") 0 -82px;
+    height: 16px;
+    width: 17px; }
   .card-block .star {
-    background-image: url("../images/stars.png");
-    width: 27px;
     height: 10px;
-    display: inline-block; }
+    display: inline-block;
+    margin-left: 5px; }
+  .card-block .star.two {
+    width: 18px;
+    background-image: url("../images/stars-2.png"); }
+  .card-block .star.three {
+    width: 27px;
+    background-image: url("../images/stars-3.png"); }
+  .card-block .star.four {
+    width: 35px;
+    background-image: url("../images/stars-4.png"); }
 
 .img-container {
   position: relative; }

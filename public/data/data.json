@@ -1,0 +1,62 @@
+{
+  "data": {
+    "title": "JavaScript Flashcards",
+    "cards": [
+      {
+        "image": "card-1",
+        "place": "Menorca",
+        "days": 8,
+        "nights": 7,
+        "flight": "Vuelo",
+        "flightCompany": "Ryanair",
+        "hotel": "Blue Sea San Anton Hotel & Spa",
+        "car": "Fiat 500 o similar",
+        "stars": "three",
+        "price": 339,
+        "AI": false,
+        "discount": 15
+      },
+      {
+        "image": "card-2",
+        "place": "Cancún",
+        "days": 8,
+        "nights": 7,
+        "flight": "Vuelo",
+        "flightCompany": "regular",
+        "hotel": "Flamingo Cancún",
+        "transport": "Translados aeropuerto - hotel",
+        "stars": "four",
+        "price": 898,
+        "AI": true,
+        "discount": 30
+      },
+      {
+        "image": "card-3",
+        "place": "Londres",
+        "days": 4,
+        "nights": 3,
+        "from": "Desde Barcelona",
+        "hotel": "Hotel Lords",
+        "car": "Fiat 500 o similar",
+        "stars": "two",
+        "price": 150,
+        "AI": false,
+        "discount": 15
+      },
+      {
+        "image": "card-1",
+        "place": "Menorca",
+        "days": 8,
+        "nights": 7,
+        "flight": "Vuelo",
+        "flightCompany": "Ryanair",
+        "hotel": "Blue Sea San Anton Hotel & Spa",
+        "car": "Fiat 500 o similar",
+        "stars": "three",
+        "price": 339,
+        "AI": false,
+        "discount": 15
+      }
+    ]
+  }
+}

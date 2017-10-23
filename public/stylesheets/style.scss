@@ -277,26 +277,47 @@ body{
     display: inline-block;
     margin-right:10px;
   }
-  i.plane{
+  i.from{
     background: url('../images/icon-sprite.png') 0 0;
+    height: 17px;
+    width: 17px;
+  }
+  i.plane{
+    background: url('../images/icon-sprite.png') 0 -23px;
     height: 11px;
     width: 17px;
   }
   i.bed{
-    background: url('../images/icon-sprite.png') 0 -21px;
+    background: url('../images/icon-sprite.png') 0 -43px;
     height: 11px;
     width: 17px;
   }
   i.car{
-    background: url('../images/icon-sprite.png') 0 -39px;
+    background: url('../images/icon-sprite.png') 0 -62px;
     height: 14px;
     width: 17px;
   }
+  i.transport{
+    background: url('../images/icon-sprite.png') 0 -82px;
+    height: 16px;
+    width: 17px;
+  }
   .star{
-    background-image: url("../images/stars.png");
-    width:27px;
     height:10px;
     display: inline-block;
+    margin-left:5px;
+  }
+  .star.two{
+    width:18px;
+    background-image: url("../images/stars-2.png");
+  }
+  .star.three{
+    width:27px;
+    background-image: url("../images/stars-3.png");
+  }
+  .star.four{
+    width:35px;
+    background-image: url("../images/stars-4.png");
   }
 }
 .img-container{
