@@ -7,6 +7,7 @@ To run the app do the following and view on http://localhost:3000/
 ```node
 npm install
 npm start
+http://localhost:3000/
 
 ```
 
